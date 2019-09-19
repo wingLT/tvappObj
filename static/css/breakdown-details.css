@@ -1,0 +1,189 @@
+.block-area{
+  padding: 0 14px;
+  border-radius: 2px;
+}
+.block-area>div.title{
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 16px;
+  color: #555555;
+  font-weight: bold;
+}
+
+.breakdown-type{
+  width: 480px;
+  height: 179px;
+}
+.breakdown-type ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.breakdown-type ul li{
+  display: inline-block;
+  vertical-align: top;
+  color: #555555;
+  margin: 15px 17px;
+}
+.breakdown-type ul li span{
+  display: inline-block;
+}
+
+.breakdown-type ul li>div:first-child{
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/*58c9f3  danger*/
+.breakdown-type ul li>div:first-child>span{
+  border-bottom: 3px solid #58c9f3;
+}
+
+.breakdown-type ul li>div:first-child>span.danger{
+  border-bottom: 3px solid #ff6c60;
+  color: #ff6c60;
+}
+
+/*高危*/
+.breakdown-type ul li>div:first-child>span.hight-risk{
+  border-bottom: 3px solid #c10f01;
+  color: #c10f01;
+}
+/*正常*/
+.breakdown-type ul li>div:first-child>span.normal{
+  border-bottom: 3px solid #18d96e;
+  color: #18d96e;
+}
+.breakdown-type ul li>div:last-child{
+  font-size: 16px;
+}
+
+
+/*故障历史*/
+.breakdown-history{
+  width: 1100px;
+  height: 268px;
+  position: relative;
+}
+
+.breakdown-history div#breakdownHistoryMap{
+  /*height: 145px;*/
+  height: 170px;
+  width: 1071px;
+  margin-top: 10px;
+}
+
+.breakdown-history .y-time{
+  position: absolute;
+  bottom: 10px;
+  width: 96%;
+  font-size: 12px;
+  color: #555555;
+}
+.breakdown-history .y-time>div{
+  width: 83px;
+  text-align: center;
+}
+
+ul.legend{
+  list-style: none;
+  margin-left: 40px;
+}
+ul.legend li{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  color: #666666;
+  font-weight: normal;
+  margin: 0 10px;
+}
+ul.legend li i,
+ul.legend li span{
+  display: inline-block;
+  vertical-align: top;
+}
+ul.legend li i{
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
+  margin-top: 17px;
+  margin-right: 4px;
+}
+ul.legend li i.cpu{
+  background-color: #fbb321;
+}
+ul.legend li i.web-in{
+  background-color: #58c9f3;
+}
+ul.legend li i.databse{
+  background-color: #ff6c60;
+}
+ul.legend li i.disk{
+  background-color: #18d96e;
+}
+
+
+/*故障详情*/
+.breakdown-details table tr{
+  height: 46px;
+}
+
+.breakdown-details table thead th{
+  background-color: #f5f5f5;
+  color: #333333;
+  text-align: center;
+  font-weight: normal;
+  border: 1px solid #eeeeee;
+  padding: 0 4px;
+}
+
+.breakdown-details table tbody td{
+  color: #555555;
+  text-align: center;
+  border: 1px solid #eeeeee;
+  padding: 0 4px;
+  position: relative;
+
+}
+
+.breakdown-details table tbody td>span{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+
+.breakdown-details table tbody td div.hover-content{
+  width: 180px;
+  min-height: 74px;
+  position: absolute;
+  background-color: rgba(34, 34, 34, 0.7);
+  border-radius: 2px;
+  padding: 10px;
+  top:-28px;
+  right: 0;
+  font-size: 14px;
+  color: #fefefe;
+  display: none;
+  text-align: left;
+}
+
+.breakdown-details table tbody td:hover div.hover-content{
+  display: block;
+}
+.serial-num{
+  width: 10%;
+}
+.same-num{
+  width: 16%;
+}
+.two-same{
+  width: 13%;
+}
+.describe{
+  width: 31%;
+}

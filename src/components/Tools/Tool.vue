@@ -1,0 +1,23 @@
+<template>
+
+</template>
+
+<script>
+  import { GlobalVar } from "../../../static/js/utils";
+
+  export default {
+    name: "tool",
+    mounted() {
+      let router = {
+        url: this.$route.path,
+        name: this.$route.name,
+        className: 'active'
+      };
+      GlobalVar.setHistoryRouter(router);
+    }
+  }
+</script>
+
+<style scoped>
+
+</style>

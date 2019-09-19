@@ -1,0 +1,82 @@
+.tier .el-select .el-input .el-select__caret{
+  color: transparent;
+}
+.tier .el-input--suffix .el-input__inner{
+  display: none;
+}
+
+.normal .el-select .el-input .el-select__caret{
+  color: transparent;
+}
+.normal .el-input--suffix .el-input__inner{
+  display: none;
+}
+
+
+/*=============参与者样式开始==========*/
+.search-group .actor-box {
+}
+
+.actor-serc {
+  margin: 10px;
+  display: inline-block;
+  height: 27px !important;
+  line-height: 24px !important;
+  border: 1px solid #cccccc;
+  text-indent: 10px;
+}
+
+.actor-serc > input {
+  height: 24px;
+  line-height: 24px;
+  border: none;
+  outline: none;
+}
+
+.actor-list > ul {
+  overflow: hidden;
+  height: 35px;
+  line-height: 35px;
+}
+
+.actor-list li:hover {
+  background: #f5f5f5;
+}
+.actor-list li:hover .actor-fr {
+  display: block;
+}
+
+.actor-list li .actor-fl {
+  float: left;
+}
+
+.actor-list li .actor-fl > span {
+  display: inline-block;
+}
+.actor-list li .actor-fl .gray-bg{
+  background: #c1c1c1;
+}
+.actor-list li .actor-fl .orange-bg{
+  background: #fbb321;
+}
+.actor-list li .actor-fl > span:nth-child(1) {
+  width: 24px;
+  height: 24px;
+  line-height: 24px !important;
+  border-radius: 50%;
+  font-size: 10px;
+  text-align: center;
+  margin-right: 10px;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+.actor-list li .actor-fl > span:nth-child(2) {
+}
+
+.actor-list li .actor-fr {
+  float: right;
+  display: none;
+}
+
+/*=============参与者样式结束==========*/

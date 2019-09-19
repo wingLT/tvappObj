@@ -1,0 +1,115 @@
+table {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #555555;
+  font-size: 14px;
+}
+
+.table-title tr {
+  height: 70px;
+  background-color: #f5f5f5;
+}
+
+.table-title tr th {
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table-body {
+  height: 639px;
+}
+
+.table-body table .type > span {
+  display: block;
+  width: 100px;
+  height: 34px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 34px;
+  margin: 0 auto;
+}
+
+.table-body table:nth-child(2n+1) .type > span {
+  background-color: #fbb321;
+}
+
+.table-body table:nth-child(2n+2) .type > span {
+  background-color: #58c9f3;
+}
+
+.table-body table:nth-child(2n+4) .type > span {
+  background-color: #ff6c60;
+}
+
+.table-body table .type,
+.table-body table .configuration {
+  border-right: solid 1px #cccccc;
+}
+
+.table-body table .operate {
+  border-left: solid 1px #cccccc;
+}
+
+
+
+.table-body table tr {
+  border-bottom: solid 1px #cccccc;
+}
+
+
+/*
+edit-active
+.table-body table tr td.t-time input
+*/
+
+.table-body table tr td.t-time input{
+  width: 157px;
+  height: 30px;
+  border: none;
+  text-align: center;
+}
+
+.table-body table.edit-active tr.editable td.t-time input {
+  background-color: #e6e6e6;
+}
+
+.table-body table .operate i {
+  display: inline-block;
+  vertical-align: middle;
+  height: 18px;
+  width: 17px;
+  margin-right: 8px;
+}
+
+.table-body table .operate > span {
+  display: inline-block;
+  vertical-align: top;
+  width: 56px;
+  height: 26px;
+  text-align: center;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/*.table-body table .operate > span.active {*/
+  /*border-radius: 2px;*/
+  /*border: solid 1px #18d96e;*/
+/*}*/
+
+/*.table-body table .operate > span.active i {*/
+  /*display: none;*/
+/*}*/
+
+
+.table-body table.edit-active td.operate i.edit{
+  display: none;
+}
+
+.table-body table.edit-active td.operate>span:first-child{
+  border-radius: 2px;
+  border: solid 1px #18d96e;
+}

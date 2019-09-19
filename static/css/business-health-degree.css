@@ -1,0 +1,113 @@
+.block-area>div.title{
+  font-size: 16px;
+  color: #555555;
+  font-weight: bold;
+  height: 49px;
+  line-height: 49px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+
+div.health-degree>div.fl>div.map>div{
+  display: inline-block;
+  vertical-align: top;
+  height: 230px;
+  width: 230px;
+  padding: 0 14px;
+}
+
+div.health-degree>div.fl div.present-health-degree{
+  margin-left: 16px;
+}
+
+
+div#presentHealthMap{
+  width: 202px;
+  height: 152px;
+  margin-top: 20px;
+
+}
+
+div#newestHealthMap{
+  height: 143px;
+  width: 143px;
+  margin: 20px auto 0 auto;
+}
+
+/*风险预警 故障告警*/
+div.health-degree div.risk-Warning,
+div.health-degree div.fault-Warning{
+  width: 480px;
+  height: 363px;
+  border-radius: 2px;
+}
+
+div.health-degree div.risk-Warning,
+div.health-degree div.running-status{
+  margin: 20px 0;
+}
+div.health-degree div.risk-Warning  div.title,
+div.health-degree div.fault-Warning div.title{
+  color: #ffffff;
+  padding: 0 14px;
+}
+
+div.health-degree div.fault-Warning div.title{
+  background: #ff6c60;
+}
+
+div.health-degree div.risk-Warning  div.title{
+  background-color: #fbb321;
+}
+
+div.health-degree div.risk-Warning  div.title img,
+div.health-degree div.fault-Warning div.title img{
+  vertical-align: top;
+  margin-top: 12px;
+  margin-right: 4px;
+}
+
+div.health-degree div.risk-Warning  div.title .more,
+div.health-degree div.fault-Warning div.title .more{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+div.health-degree div.risk-Warning table,
+div.health-degree div.fault-Warning table{
+  width: 450px;
+  margin: 15px auto;
+  font-size: 14px;
+}
+
+div.health-degree>div.fl table thead tr{
+  height: 38px;
+}
+
+div.health-degree>div.fl table tbody tr{
+  height: 40px;
+}
+div.health-degree>div.fl table thead tr{
+  background-color: #f5f5f5;
+  color: #333333;
+}
+
+div.health-degree>div.fl table  tr th,
+div.health-degree>div.fl table  tr td{
+  font-weight: normal;
+  text-align: center;
+  width: 33.3%;
+  padding: 0 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+div.health-degree>div.fl table  tr td{
+  color: #555555;
+}
+
+div.health-degree>div.fl table  tr td,
+div.health-degree>div.fl table tr th{
+  border: solid 1px #eeeeee;
+}

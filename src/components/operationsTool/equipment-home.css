@@ -1,0 +1,397 @@
+
+.tool-content .device-content > ul.history-list {
+  margin: 0 auto;
+  width: 97%;
+  padding: 0 20px;
+  border-left: 1px solid #c1c1c1;
+}
+
+.tool-content .device-content > ul.history-list > li {
+  border-bottom: 1px solid #c1c1c1;
+  padding: 22px 0;
+  clear: both;
+  min-height: 160px;
+  position: relative;
+}
+
+.tool-content .device-content > ul.history-list i {
+  height: 10px;
+  width: 10px;
+  background: #18d96e;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: -26px;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.tool-content .device-content > ul.history-list div.line {
+  background-color: #fff;
+  width: 2px;
+  position: absolute;
+  left: -22px;
+}
+
+.tool-content .device-content > ul.history-list > li:first-child div.line {
+  top: 0;
+}
+
+.tool-content .device-content > ul.history-list > li:last-child div.line {
+  bottom: -1px;
+}
+
+.tool-content .device-content > ul.history-list > li span {
+  display: inline-block;
+}
+
+.tool-content .device-content > ul.history-list > li > div {
+  vertical-align: top;
+}
+
+.tool-content .device-content > ul.history-list > li > div.img-name {
+  /*width: 126px;*/
+  width: 12%;
+  text-align: center;
+  background-color: #f5f5f5;
+  height: 110px;
+  /*margin-right: 19px;*/
+}
+
+.tool-content .device-content > ul.history-list > li > div.img-name img {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.tool-content .device-content > ul.history-list > li > div.img-name > div:nth-child(2) {
+  font-size: 16px;
+  color: #555;
+}
+
+.tool-content .device-content > ul.history-list > li > div.img-name > div:nth-child(3) {
+  font-size: 12px;
+  color: #888;
+}
+
+.tool-content .device-content > ul.history-list > li > div.item-content {
+  width: 86%;
+}
+
+.tool-content .device-content > ul.history-list > li > div.item-content ul li {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+  color: #58c9f3;
+  border: 1px solid #58c9f3;
+  padding: 1px 9px;
+  margin-right: 5px;
+}
+
+.tool-content .device-content > ul.history-list > li > div.item-content .item-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  margin-right: 10px;
+}
+
+.tool-content .device-content > ul.history-list > li > div.item-content .item-personnel {
+  font-size: 12px;
+  color: #fbb321;
+  border: 1px solid #fbb321;
+  padding: 1px 12px;
+  position: relative;
+  top: -1px;
+}.tool-content .device-content > ul.history-list > li > div.item-content .item-error {
+  font-size: 12px;
+  color: #ff6c60;
+  border: 1px solid #ff6c60;
+  padding: 1px 12px;
+  position: relative;
+  top: -1px;
+}
+
+.tool-content .device-content > ul.history-list > li > div.item-content > div:nth-child(2) {
+  font-size: 14px;
+  color: #AAAAAA;
+}
+
+.tool-content .device-content > ul.history-list > li > div.item-content > div:last-child {
+  font-size: 14px;
+  color: #555;
+}
+
+.tool-content .device-content > ul.history-list > li > div > div {
+  margin-bottom: 3px;
+}
+
+.tool-content .device-content > ul.history-list > li div.item-content div.item-operate > span {
+  font-size: 14px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.tool-content .device-content > ul.history-list > li div.item-content div.item-operate > span:first-child {
+  color: #0F89FD;
+}
+
+.tool-content .device-content > ul.history-list > li div.item-content div.item-operate > span:last-child {
+  color: #FF4F4F;
+}
+
+
+
+
+/*单个设置日志查看弹窗*/
+
+.dialogFormVisible3 {
+  min-height: 683px;
+}
+
+
+/*头部显示*/
+
+.dialogFormVisible3 .top {
+  height: 82px;
+  width: 95%;
+  /*margin: 24px auto 0 auto;*/
+  margin: 31px auto 0 auto;
+  background-color: #f5f5f5;
+}
+
+.dialogFormVisible3 .top ul {
+  list-style: none;
+  margin: 0;
+  padding: 21px 23px 0 23px;
+}
+
+.dialogFormVisible3 .top ul li {
+  display: inline-block;
+  vertical-align: top;
+  color: #FFFFFF;
+}
+
+.dialogFormVisible3 .top ul li:first-child>div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.dialogFormVisible3 .top ul li:first-child>div>img {
+  margin-top: 3px;
+  margin-right: 16px;
+}
+
+.dialogFormVisible3 .top ul li:first-child>div>span:first-child {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+  /*margin-top: -5px;*/
+}
+
+.dialogFormVisible3 .top ul li:first-child>div>span:last-child {
+  font-size: 14px;
+  color: #999;
+}
+
+.dialogFormVisible3 .top ul li span {
+  display: block;
+}
+
+.dialogFormVisible3 .top ul li:last-child {
+  float: right;
+}
+
+.dialogFormVisible3 .top ul li:last-child>span {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  line-height: 34px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dialogFormVisible3 .top ul li:last-child>span:first-child {
+  /*border: 1px solid #4e6d8b;*/
+  line-height: 30px;
+  vertical-align: top;
+}
+
+.dialogFormVisible3 .top ul li:last-child>span:last-child {
+  border: 1px solid #18d96e;
+  font-size: 24px;
+  color: #18d96e;
+  margin-left: 20px;
+}
+
+.dialogFormVisible3 .top ul li:nth-child(2),
+.dialogFormVisible3 .top ul li:nth-child(3) {
+  border-left: 2px solid #e6e6e6;
+  padding-left: 13px;
+  margin-left: 10px;
+}
+
+
+/*日志内容显示*/
+
+.dialogFormVisible3 >img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.dialogFormVisible3 .log-content {
+  /*width: 90%;*/
+  width: 94%;
+  margin-left: 8%;
+  padding-right: 3%;
+  height: 525px;
+}
+
+.dialogFormVisible3 .log-content #logContent {
+  height: 490px;
+  overflow: hidden;
+  outline: none;
+  overflow-y: auto;
+}
+
+.dialogFormVisible3 .log-content>div:first-child {
+  height: 38px;
+  border-left: 2px solid #c1c1c1;
+  position: relative;
+  margin-left: 1%;
+}
+
+.dialogFormVisible3 .log-content>div:first-child>span {
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: -8px;
+  left: -8px;
+}
+
+.dialogFormVisible3 .log-content>div:first-child i {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #18d96e;
+  position: absolute;
+  top: 4px;
+  left: 2px;
+}
+
+.dialogFormVisible3 .log-content ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 1%;
+  width: 96%;
+}
+
+.dialogFormVisible3 .log-content ul li {
+  padding-bottom: 41px;
+  padding-top: 8px;
+  position: relative;
+  padding-left: 16px;
+  border-left: 2px solid #c1c1c1;
+}
+
+.dialogFormVisible3 .log-content ul li:last-child {
+  border-left: none;
+  margin-top: -16px;
+  padding-top: 17px;
+}
+
+.dialogFormVisible3 .log-content ul li>i.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #18d96e;
+  position: absolute;
+  top: 15px;
+  left: -16px;
+}
+
+.dialogFormVisible3 .log-content ul li .time-show {
+  width: 139px;
+  height: 29px;
+  line-height: 29px;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: center;
+  background-color: #283543;
+  display: inline-block;
+}
+
+.dialogFormVisible3 .log-content ul li i {
+  font-style: normal;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 10px;
+  color: #FFFFFF;
+}
+
+.dialogFormVisible3 .log-content ul li .log-type-title {
+  font-size: 16px;
+  color: #18d96e;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.dialogFormVisible3 .log-content ul li .log-type {
+  font-size: 12px;
+  display: inline-block;
+  border: 1px solid #58c9f3;
+  color: #58c9f3;
+  text-align: center;
+  padding: 0 6px;
+  margin: 0 3px;
+}
+
+.dialogFormVisible3 .log-content ul li .log-username {
+  font-size: 12px;
+  display: inline-block;
+  border: 1px solid #fbb321;
+  color: #fbb321;
+  text-align: center;
+  padding: 0 6px;
+  margin-left: 4px;
+}
+
+.dialogFormVisible3 .log-content ul li p.log-record-time {
+  font-size: 14px;
+  color: #AAAAAA;
+}
+
+.dialogFormVisible3 .log-content ul li p.log-record-content {
+  font-size: 14px;
+  color: #555;
+}
+
+.dialogFormVisible3 .log-content ul li .log-operate {
+  font-size: 14px;
+  /*margin-right: 23px;*/
+}
+
+.dialogFormVisible3 .log-content ul li .log-operate>span {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 17px;
+}
+
+.dialogFormVisible3 .log-content ul li .log-operate .edit {
+  color: #0F89FD;
+}
+
+.dialogFormVisible3 .log-content ul li .log-operate .delete {
+  color: #ff4f4f;
+}
+
+.dialogFormVisible3 .log-content ul li:last-child i {
+  left: -14px;
+}
+.log-time .el-input__icon.el-range__close-icon{
+  right: 56px;
+}

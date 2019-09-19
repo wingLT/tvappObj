@@ -1,0 +1,305 @@
+/*==========跳转头样式开始=========*/
+.skip-header {
+  width: 100%;
+  height: 76px;
+  line-height: 76px;
+  overflow: hidden;
+  position: relative;
+}
+
+.skip-header .head-fr {
+  float: right;
+  margin-right: 31px;
+}
+
+.skip-header .head-fr > a {
+  font-size: 14px;
+  color: #555555;
+  cursor: pointer;
+}
+
+.skip-header .head-fr > a:first-child {
+  margin-right: 10px;
+}
+
+.skip-header .head-fr > a:last-child {
+  margin-left: 10px;
+}
+
+.skip-header .head-fr .green-font {
+  color: #18d96e;
+}
+
+/*==========跳转头样式结束=========*/
+/**/
+.modal-box .el-dialog__header {
+  border-bottom: none;
+}
+/*翻页部分样式*/
+/*页码 */
+.page-box {
+  width: 95%;
+  margin: 30px 30px;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.page {
+  position: relative;
+}
+
+.page div.cut-page-number > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.page div.cut-page-number > div:first-child,
+.page div.cut-page-number > div:last-child {
+  margin-top: 4px;
+}
+
+.page div.cut-page-number > div.select-down {
+  height: 28px;
+  width: 54px;
+  margin-right: 16px;
+}
+
+.page div.cut-page-number > div.select-down > div {
+  width: 54px;
+}
+
+.page div.cut-page-number > div.select-down input {
+  width: 28px;
+}
+
+.page div.cut-page-number > div.select-down span {
+  background-color: transparent;
+  width: 10px;
+}
+
+.page div.cut-page-number > div.select-down i {
+  font-size: 20px;
+}
+
+.page div.select-down ul.down-content {
+  width: 55px;
+  min-width:55px;
+  height: auto;
+}
+
+.page div.select-down ul.down-content li {
+  height: 28px;
+  line-height: 28px;
+}
+
+.page .page-number > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.page .page-number > div.go-page {
+  width: 88px;
+  height: 28px;
+  border-radius: 4px;
+  border: solid 1px #cccccc;
+  margin-left: 19px;
+}
+
+.page .page-number > div.go-page > span {
+  float: left;
+  height: 100%;
+  line-height: 28px;
+  text-align: center;
+  font-size: 14px;
+  width: 50%;
+  outline: none;
+}
+
+.page .page-number > div.go-page > span:last-child {
+  color: #ffffff;
+  background-color: #18d96e;
+  cursor: pointer;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+div.select-down > div > span {
+  line-height: 28px !important;
+  height: 28px !important;
+}
+
+div.select-down > div {
+  height: 28px;
+}
+
+div.select-down > div input {
+  height: 25px;
+}
+
+.go-page input {
+  width: 32px;
+  height: 24px;
+  border: none;
+}
+/*==========翻页样式结束==============*/
+
+/*=============参与者样式开始==========*/
+.search-group .actor-box {
+}
+
+.actor-serc {
+  margin: 10px;
+  display: inline-block;
+  height: 27px !important;
+  line-height: 24px !important;
+  border: 1px solid #cccccc;
+  text-indent: 10px;
+}
+
+.actor-serc > input {
+  height: 24px;
+  line-height: 24px;
+  border: none;
+  outline: none;
+}
+
+.actor-list > ul {
+  overflow: hidden;
+  height: 35px;
+  line-height: 35px;
+}
+
+.actor-list li:hover {
+  background: #f5f5f5;
+}
+.actor-list li:hover .actor-fr {
+  display: block;
+}
+
+.actor-list li .actor-fl {
+  float: left;
+}
+
+.actor-list li .actor-fl > span {
+  display: inline-block;
+}
+.actor-list li .actor-fl .gray-bg{
+  background: #c1c1c1;
+}
+.actor-list li .actor-fl .orange-bg{
+  background: #fbb321;
+}
+.actor-list li .actor-fl > span:nth-child(1) {
+  width: 24px;
+  height: 24px;
+  line-height: 24px !important;
+  border-radius: 50%;
+  font-size: 10px;
+  text-align: center;
+  margin-right: 10px;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+.actor-list li .actor-fl > span:nth-child(2) {
+}
+
+.actor-list li .actor-fr {
+  float: right;
+  display: none;
+}
+
+/*=============参与者样式结束==========*/
+
+
+/*========多选框组样式开始==========*/
+.el-checkbox {
+  color: #555555;
+}
+
+.el-checkbox__input.is-checked + .el-checkbox__label {
+  color: #555555 !important;
+}
+
+.el-checkbox__inner {
+  width: 20px !important;
+  height: 20px !important;
+  border: 1px solid #cccccc !important;
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background-color: transparent !important;
+  border-color: #cccccc !important;
+}
+
+.el-checkbox__inner::after {
+  width: 15px !important;
+  height: 17px !important;
+  left: 2px !important;
+  top: 0 !important;
+  background: url("../../assets/duihao.png") no-repeat 50% 50% !important;
+  background-size: 100% !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner::after {
+  background: none !important;
+}
+
+
+.comm-width .el-select .el-input__inner{
+  height: 30px !important;
+}
+.el-select-dropdown__item.selected{
+  color: #555555 !important;
+  font-weight: normal !important;
+}
+.el-select .el-input__inner:focus,
+.el-select .el-input.is-focus .el-input__inner {
+  border-color: #cccccc !important;
+}
+
+.search-group .el-select .el-input__inner,
+.time-group .el-input__inner{
+  width: 153px !important;
+  height: 36px !important;
+}
+
+/*========多选框组样式结束==========*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
